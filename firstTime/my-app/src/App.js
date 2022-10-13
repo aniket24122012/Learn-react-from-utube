@@ -7,7 +7,7 @@ function App() {
     //How to add CSS through object interploation
   <div style={{background : 'yellow' , padding:'20px', marginTop:'20px'}}>
       <h1>Aniket Kandrikar</h1>
-      <Title />
+      <Title name="Parasram Kandrikar"/>
   </div>
   );
 }
