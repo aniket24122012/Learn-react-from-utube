@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { alignPropType } from 'react-bootstrap/esm/types';
 import Course from './course';
 
 const AllCourse=()=>{
@@ -10,6 +11,7 @@ const AllCourse=()=>{
     ])
     return (
         <div>
+            <h1>WayToBecome DEvLopEr</h1>
               <h1>All Courses</h1>
               {
                 course.length > 0 

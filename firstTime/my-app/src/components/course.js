@@ -1,15 +1,34 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText, CardHeader} from 'reactstrap';
 const Course=({course})=>{
     return (
         <div>
-            <h1>WayToBecome DEvLopEr</h1>
-             <h3>{course.title}</h3>
-             <h3>{course.desc}</h3>
-             <h3>{course.price}</h3>
-             <Button color="danger">Danger!</Button>
+        
+                 
+            <Card
+    className="my-2"
+    color="warning"
+    inverse
+    style={{
+      width: '18rem'
+    }}
+  >
+    <CardHeader>
+      {course.title}
+    </CardHeader>
+    <CardBody>
+      <CardTitle tag="h5">
+        {course.desc}
+      </CardTitle>
+      <CardText>
+        {course.price}
+      </CardText>
+    </CardBody>
+  </Card>
+             <hr/>
         </div>
 
     );
 }
 export default Course;
+
