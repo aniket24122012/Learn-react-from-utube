@@ -10,9 +10,7 @@ const AllCourse=()=>{
         {title:'Django',desc:'basic',price:'3000'}
     ])
     return (
-        <div>
-            <h1>WayToBecome DEvLopEr</h1>
-              <h1>All Courses</h1>
+        <div className="text-center">
               {
                 course.length > 0 
                 ? course.map((item) => <Course course={item}  /> )

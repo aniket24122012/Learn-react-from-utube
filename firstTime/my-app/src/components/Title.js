@@ -8,13 +8,13 @@ import { Card, CardBody, CardTitle, Container } from 'reactstrap';
 const Title =({name})=>{
     return (
        
-           <Container >
-           <Card className='m-5'>
+          
+           <Card className='mt-5 mb-5b' style={{backgroundColor:'#ffffcc'}}>
                 <CardBody>
-                    <CardTitle className='text-center m-4'><h1 >Carry Forwaed With Aniket</h1></CardTitle>
+                    <CardTitle className='text-center'><h1 >Tech Institute</h1></CardTitle>
                 </CardBody>
             </Card>
-           </Container>
+           
         
     );
 }
