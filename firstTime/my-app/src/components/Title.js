@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card, CardBody, CardTitle, Container } from 'reactstrap';
 
 //Props are arguments passed into React components.
 
@@ -6,10 +7,15 @@ import React from 'react';
 
 const Title =({name})=>{
     return (
-        <div>
-            <h1>Hello ,</h1>
-            <h3 style={{marginLeft:'50px'}}>{name}</h3>
-        </div>
+       
+           <Container >
+           <Card className='m-5'>
+                <CardBody>
+                    <CardTitle className='text-center m-4'><h1 >Carry Forwaed With Aniket</h1></CardTitle>
+                </CardBody>
+            </Card>
+           </Container>
+        
     );
 }
 export default Title;
