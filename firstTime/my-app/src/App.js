@@ -6,6 +6,7 @@ import AllCourse from "./components/AllCourse";
 import { Col, Container, Row } from "reactstrap";
 import Menus from "./components/Menus";
 import Home from "./components/Home";
+import AddCourse from "./components/AddCourse";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/view-course" element={<AllCourse/>}></Route>
+                <Route path="/add-course" element={<AddCourse/>}></Route>
                 </Routes>
             </Col>
           </Row>

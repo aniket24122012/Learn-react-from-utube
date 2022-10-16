@@ -6,19 +6,11 @@ const Menus = () => {
   return (
     <div>
       <ListGroup>
-        <ListGroupItem tag="a" href="/" action>
-          Home
-        </ListGroupItem>
-        <ListGroupItem tag="a" href="/view-course" action>
-          Add Course
-        </ListGroupItem>
-
-        <ListGroupItem tag="a" href="#" action>
-          About us
-        </ListGroupItem>
-        <ListGroupItem tag="a" href="#" action>
-          Contact
-        </ListGroupItem>
+        <Link className="list-group-item list-group-item-action" tag="a" to="/" action>Home</Link>
+        <Link className="list-group-item list-group-item-action" tag="a" to="/view-course" action>View Courses</Link>
+        <Link className="list-group-item list-group-item-action" tag="a" to="/add-course" action>Add Courses</Link>
+        <Link className="list-group-item list-group-item-action" tag="a" to="/contact" action>Contact</Link>
+        <Link className="list-group-item list-group-item-action" tag="a" to="/about-us" action>About us</Link>
       </ListGroup>
     </div>
   );

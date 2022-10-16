@@ -9,9 +9,9 @@ const Title =({name})=>{
     return (
        
           
-           <Card className='mt-5 mb-5b' style={{backgroundColor:'#ffffcc'}}>
+           <Card className='mt-5 mb-5'>
                 <CardBody>
-                    <CardTitle className='text-center'><h1 >Tech Institute</h1></CardTitle>
+                    <CardTitle className='text-center'><h1 >Tech Institute</h1></CardTitle> 
                 </CardBody>
             </Card>
            
