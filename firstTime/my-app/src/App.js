@@ -1,12 +1,12 @@
 import "./App.css";
 import Title from "./components/Title";
-import ReactDOM from "react-dom";
-import { Route, Link, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route,  BrowserRouter as Router, Routes } from "react-router-dom";
 import AllCourse from "./components/AllCourse";
 import { Col, Container, Row } from "reactstrap";
 import Menus from "./components/Menus";
 import Home from "./components/Home";
 import AddCourse from "./components/AddCourse";
+import Hooks from "./components/Hooks";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <div >
         <Container>
           <Title />
+          <Hooks />
           <Row>
             <Col md={4}>
               <Menus />
