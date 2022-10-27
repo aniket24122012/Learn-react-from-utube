@@ -11,6 +11,7 @@ const AddCourse = () => {
             name="userId"
             id="userId"
             placeholder="Enter user id..."
+            
           />
         </FormGroup>
         <FormGroup>
